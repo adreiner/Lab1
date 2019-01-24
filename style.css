@@ -1,0 +1,55 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 60px;
+    line-height: 60px;
+    padding: 20px;
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin: 0;
+
+}
+
+li{
+    margin:5px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    float: right;
+    
+}
+
+ul a{
+    color: #000;
+    text-decoration: none;
+}
+
+.main{
+    height: 500px;
+    display: flex;
+}
+
+.content{
+    width: 70%;
+}
+
+.sidebar{
+    width:30%;
+    background-color: rgb(80, 79, 79);
+    color: white;
+}
+
+p{
+    margin:20px;
+}
